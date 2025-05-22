@@ -1,10 +1,21 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "amadeus-flight-search",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Flight search using Amadeus API",
+  "main": "amadeus-flight-search.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node amadeus-flight-search.js"
   },
-  "private": true
+  "dependencies": {
+    "amadeus": "^9.1.0",
+    "dotenv": "^16.5.0"
+  },
+  "keywords": [
+    "amadeus",
+    "flights",
+    "travel",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC"
 }
